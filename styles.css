@@ -1,0 +1,156 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Header Section */
+header {
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background: #002855;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.hero img {
+    margin: 1rem auto;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Current Memo Section */
+#current, #memos, #archives {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.memo-card {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.memo-card img {
+    width: 150px;
+    border-radius: 8px;
+}
+
+.memo-card .btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #004080;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.memo-card .btn:hover {
+    background: #002855;
+}
+
+/* Grid Section */
+.memo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.memo-item {
+    text-align: center;
+    background: #f1f1f1;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.memo-item img {
+    width: 100px;
+    margin-bottom: 0.5rem;
+}
+
+.memo-item a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: #004080;
+    font-weight: bold;
+}
+
+.memo-item a:hover {
+    color: #002855;
+}
+
+/* Archives Section */
+details {
+    margin: 1rem 0;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #002855;
+    color: #fff;
+}
+
+footer a {
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
+footer .social a {
+    margin: 0 0.5rem;
+}
